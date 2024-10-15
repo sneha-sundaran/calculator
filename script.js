@@ -9,12 +9,14 @@ try{
 }
 catch{
   output.value=null
+
 output.placeholder="invalid syntax"
 
 }
 }
 clearAll=()=>{
   output.value=null;
+  output.placeholder=0
 
 }
 remove=()=>{
